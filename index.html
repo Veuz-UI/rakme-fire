@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakme</title>
+  <link rel="icon" type="fav-icon" href="assets/img/fav-icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="loader-main">
+    <div class="spinner"></div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-bg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png" alt="" class="img-fluid logo-w">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-0 m-auto nav-links common-nav-links">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#" class="desktop-item dropdwn-show">Products</a>
+            <input class="mega-input" type="checkbox" id="showMega">
+            <label for="showMega" class="mobile-item">Products</label>
+            <div class="mega-box">
+              <div class="content mega-product-menu">
+                <div class="row w-100 mx-0">
+                  <div class="col px-0 br-right">
+                    <h6>Ul Listed Extiguishers</h6>
+                    <ul class="mega-links">
+                      <li><a href="ul-listed-extinguisher.html">Dry Chemical Powder</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Extiguishers</h6>
+                    <ul class="mega-links">
+                      <li><a href="extinguisher-dry-chemical.html">Dry Chemical Powder</a></li>
+                      <li><a href="extinguisher-co2.html">CO2</a></li>
+                      <li><a href="extinguisher-foam-aff.html">Foam AFFF 3%</a></li>
+                      <li><a href="extinguisher-automatic-dcp.html">Automatic DCP</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Fire Hoses</h6>
+                    <ul class="mega-links">
+                      <li><a href="fire-hoses-pyroprotect.html">UL Listed/Pyroprotect</a></li>
+                      <li><a href="fire-hoses-premier.html">Premier</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Fire Hoses Cabinet</h6>
+                    <ul class="mega-links">
+                      <li><a href="fire-hose-steel-cabinet.html">Steel Cabinet</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Sprinklers</h6>
+                    <ul class="mega-links">
+                      <li><a href="sprinklers-ul-listed-pendant.html">UL Listed Pendant</a></li>
+                      <li><a href="sprinklers-ul-listed-upright.html">UL Listed Upright</a></li>
+                      <li><a href="sprinklers-ul-listed-sidewall.html">UL Listed Sidewall</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Nozzles</h6>
+                    <ul class="mega-links">
+                      <li><a href="nozzle-superfire-junior.html">Superfire Junior UL Listed</a></li>
+                      <li><a href="nozzle-pvc-hose.html">PVC Hose Reel Nozzle</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Valves</h6>
+                    <ul class="mega-links">
+                      <li><a href="gate-valve.html">Gate Valve Flanged UL/FM</a></li>
+                      <li><a href="check-valve.html">Check Valve Flanged FM</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0">
+                    <h6>Foam Concentrate</h6>
+                    <ul class="mega-links">
+                      <li><a href="foam-concentrate.html"> Aqueous Film Forming Foam (AFFF)</a></li>
+                    </ul>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="container-input ml-50">
+          <input type="text" placeholder="Search" name="text" class="input">
+          <svg fill="#000000" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z"
+              fill-rule="evenodd"></path>
+          </svg>
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+
+  <div class="owl-carousel owl-theme">
+    <div class="item home-slider"><img src="assets/img/banner-1.jpg" alt="" class="img-fluid">
+      <div class="overlay"></div>
+      <div class="banner-cntnt">
+        <div class="container">
+          <h2 data-aos="fade-right"
+          data-aos-duration="1500">Range Of Top Quality <br>
+            Firefighting Equipment's <br>
+            & Products</h2>
+          <div class="d-flex" data-aos="fade-right"
+          data-aos-duration="1500">
+            <a href="about.html">
+              <button type="button" class="primary-btn hover-btn-1">
+                View More
+              </button>
+            </a>
+            <button type="button" class="secndry-btn hover-btn-2">
+              Our Products
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item home-slider"><img src="assets/img/banner-2.png" alt="" class="img-fluid">
+      <div class="overlay"></div>
+      <div class="banner-cntnt">
+        <div class="container">
+          <h2 data-aos="fade-right"
+          data-aos-duration="1500">Range Of Top Quality <br>
+            Firefighting Equipment's <br>
+            & Products</h2>
+          <div class="d-flex" data-aos="fade-right"
+          data-aos-duration="1500">
+            <a href="about.html"></a>
+            <button type="button" class="primary-btn hover-btn-1">
+              View More
+            </button>
+            <button type="button" class="secndry-btn hover-btn-2">
+              Our Products
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="section-padding">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-7" data-aos="fade-right"
+        data-aos-duration="1500">
+          <h4 class="sub-heading-top">
+            About Rakme
+          </h4>
+          <h3 class="sub-heading">Welcome to <br>
+            <span>Rakme</span> Fire Equipments</h3>
+          <p class="main-para">We, RAKME SAFETY is one of the leading industrial safety and personal protective
+            equipment supplier in SAUDI ARABIA, Headquartered in JEDDAH with branches IN RIYADH and DAMMAM. We commenced
+            our operations in the PPE sector in 2003. With almost 16 years of experience and presence in SAUDI ARABIA,
+            we are a reliable quality product provider.</p>
+          <p class="main-para">We, RAKME SAFETY is one of the leading industrial safety and personal protective
+            equipment supplier in SAUDI ARABIA, Headquartered in JEDDAH with branches IN RIYADH and DAMMAM. We commenced
+            our operations in the PPE sector in 2003. With almost 16 years of experience and presence in SAUDI ARABIA,
+            we are a reliable quality product provider.</p>
+          <a href="about.html">
+            <button type="button" class="primary-btn hover-btn-1">
+              View more
+            </button>
+          </a>
+        </div>
+        <div class="col-lg-5" data-aos="fade-left"
+        data-aos-duration="1500">
+          <img src="assets/img/abt-img.png" alt="" class="img-fluid abt-img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="product-bg">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-lg-7 product-contents" data-aos="fade-left"
+          data-aos-duration="1500">
+            <h4 class="sub-heading-top">
+              Rakme Fire Equipments
+            </h4>
+            <h5 class="catogery-heading">
+              Our <span>products</span>
+            </h5>
+            <img src="assets/img/kanex-logo.png" alt="" class="img-fluid client-logo">
+            <h3 class="sub-heading">Multi Purpose Portable Extinguisher <br>
+              <span>Stored Pressure - UL Listed</span></h3>
+            <p class="main-para">
+              Kanex new UL listed fire extinguisher is a result of its continuous commitment to quality, service, and
+              innovation in the field of fire safety. The UL 299 CAN/ULC-S504 Dry Chemical Fire Extinguishers from Kanex
+              uses special specially siliconized mono ammonium phosphate dry chemical powder for knockdown of A, B and C
+              class of fire. The UL listed MAP powder in properly designed fire extinguisher helps to achieve high fire
+              ratings with best performance.
+            </p>
+            <div class="d-flex">
+              <a href="about.html">
+              <button type="button" class="primary-btn hover-btn-1">
+                View More <span><svg width="9" height="11" viewBox="0 0 9 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.997368 10.8549C1.08499 10.9005 1.18337 10.9213 1.28195 10.9152C1.38053 10.9091 1.47558 10.8763 1.55691 10.8202L8.59858 5.94524C8.67053 5.89539 8.72933 5.82885 8.76994 5.7513C8.81056 5.67376 8.83177 5.58753 8.83177 5.49999C8.83177 5.41246 8.81056 5.32623 8.76994 5.24868C8.72933 5.17114 8.67053 5.10459 8.59858 5.05474L1.55691 0.179744C1.47573 0.123116 1.38057 0.0898594 1.28179 0.0836014C1.18302 0.0773433 1.08442 0.0983238 0.996746 0.144255C0.909074 0.190187 0.835695 0.259306 0.784608 0.344078C0.733521 0.42885 0.706688 0.52602 0.707035 0.624994V10.375C0.707018 10.4739 0.734065 10.5709 0.785244 10.6555C0.836423 10.7401 0.909782 10.809 0.997368 10.8549ZM1.79037 1.65904L7.33866 5.49999L1.79037 9.34095V1.65904Z" fill="white"></path>
+                  </svg>
+                  </span>
+              </button>
+            </a>
+              <button type="button" class="third-btn hover-btn-3">
+                Our Products <span><svg width="9" height="11" viewBox="0 0 9 11" fill="none" class="btn-svg"  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.997368 10.8549C1.08499 10.9005 1.18337 10.9213 1.28195 10.9152C1.38053 10.9091 1.47558 10.8763 1.55691 10.8202L8.59858 5.94524C8.67053 5.89539 8.72933 5.82885 8.76994 5.7513C8.81056 5.67376 8.83177 5.58753 8.83177 5.49999C8.83177 5.41246 8.81056 5.32623 8.76994 5.24868C8.72933 5.17114 8.67053 5.10459 8.59858 5.05474L1.55691 0.179744C1.47574 0.123116 1.38057 0.0898594 1.28179 0.0836014C1.18302 0.0773433 1.08442 0.0983238 0.996746 0.144255C0.909074 0.190187 0.835695 0.259306 0.784608 0.344078C0.733521 0.42885 0.706688 0.52602 0.707035 0.624994V10.375C0.707018 10.4739 0.734065 10.5709 0.785244 10.6555C0.836423 10.7401 0.909782 10.809 0.997368 10.8549ZM1.79037 1.65904L7.33866 5.49999L1.79037 9.34095V1.65904Z"/>
+                  </svg>
+                  </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" data-aos="fade-up"
+      data-aos-duration="1500">
+        <div class="col-lg-4">
+          <div class="product-list product-list-main">
+            <h5>KFAHQ-2.5-UL</h5>
+            <div class="row">
+              <div class="col-lg-5">
+                <ul class="product-points">
+                  <li>Capacity</li>
+                  <li>Design</li>
+                  <li>Height (inch / cm)</li>
+                  <li>UL Fire Rating</li>
+                  <li>Average Discharge time</li>
+                </ul>
+              </div>
+              <div class="col-lg-5">
+                <ul class="product-points ans">
+                  <li>2.5 lbs</li>
+                  <li>Nozzle</li>
+                  <li>15.35" ( 39 cm )</li>
+                  <li>1 A : 10 BC</li>
+                  <li>8-10 Sec</li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <img src="assets/img/product-1.png" alt="" class="img-fluid product-1">
+              </div>
+  
+            </div>
+            <button type="button" class="prdct-btn hover-btn-3">View more <span><svg width="6" height="7" viewBox="0 0 6 7"
+                  class="btn-svg" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.03011 6.39502C1.08517 6.41868 1.147 6.4295 1.20894 6.42633C1.27089 6.42316 1.33063 6.40612 1.38173 6.37702L5.80682 3.84642C5.85204 3.82055 5.88899 3.786 5.91451 3.74575C5.94003 3.7055 5.95337 3.66074 5.95337 3.6153C5.95337 3.56986 5.94003 3.5251 5.91451 3.48484C5.88899 3.44459 5.85204 3.41005 5.80682 3.38417L1.38173 0.85357C1.33072 0.824174 1.27092 0.806911 1.20885 0.803662C1.14677 0.800414 1.08481 0.811305 1.02972 0.835147C0.974623 0.85899 0.92851 0.89487 0.896407 0.938875C0.864303 0.98288 0.847441 1.03332 0.847658 1.0847V6.1459C0.847648 6.19722 0.864645 6.24757 0.896807 6.29149C0.928968 6.3354 0.975068 6.3712 1.03011 6.39502ZM1.52844 1.62147L5.01507 3.6153L1.52844 5.60913V1.62147Z"/>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="product-list">
+            <h5>KFAHQ-2.5-UL</h5>
+            <div class="row">
+              <div class="col-lg-5">
+                <ul class="product-points">
+                  <li>Capacity</li>
+                  <li>Design</li>
+                  <li>Height (inch / cm)</li>
+                  <li>UL Fire Rating</li>
+                  <li>Average Discharge time</li>
+                </ul>
+              </div>
+              <div class="col-lg-5">
+                <ul class="product-points ans">
+                  <li>10 lbs</li>
+                  <li>Nozzle</li>
+                  <li>15.35" ( 39 cm )</li>
+                  <li>1 A : 10 BC</li>
+                  <li>8-10 Sec</li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <img src="assets/img/product-1.png" alt="" class="img-fluid product-1 product-2">
+              </div>
+  
+            </div>
+            <button type="button" class="prdct-btn hover-btn-3">View more <span><svg width="6" height="7" viewBox="0 0 6 7"
+              class="btn-svg" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.03011 6.39502C1.08517 6.41868 1.147 6.4295 1.20894 6.42633C1.27089 6.42316 1.33063 6.40612 1.38173 6.37702L5.80682 3.84642C5.85204 3.82055 5.88899 3.786 5.91451 3.74575C5.94003 3.7055 5.95337 3.66074 5.95337 3.6153C5.95337 3.56986 5.94003 3.5251 5.91451 3.48484C5.88899 3.44459 5.85204 3.41005 5.80682 3.38417L1.38173 0.85357C1.33072 0.824174 1.27092 0.806911 1.20885 0.803662C1.14677 0.800414 1.08481 0.811305 1.02972 0.835147C0.974623 0.85899 0.92851 0.89487 0.896407 0.938875C0.864303 0.98288 0.847441 1.03332 0.847658 1.0847V6.1459C0.847648 6.19722 0.864645 6.24757 0.896807 6.29149C0.928968 6.3354 0.975068 6.3712 1.03011 6.39502ZM1.52844 1.62147L5.01507 3.6153L1.52844 5.60913V1.62147Z"/>
+            </svg>
+          </span>
+        </button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="product-list">
+            <h5>KFAHQ-2.5-UL</h5>
+            <div class="row">
+              <div class="col-lg-5">
+                <ul class="product-points">
+                  <li>Capacity</li>
+                  <li>Design</li>
+                  <li>Height (inch / cm)</li>
+                  <li>UL Fire Rating</li>
+                  <li>Average Discharge time</li>
+                </ul>
+              </div>
+              <div class="col-lg-5">
+                <ul class="product-points ans">
+                  <li>20 lbs</li>
+                  <li>Nozzle</li>
+                  <li>15.35" ( 39 cm )</li>
+                  <li>1 A : 10 BC</li>
+                  <li>8-10 Sec</li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <img src="assets/img/product-1.png" alt="" class="img-fluid product-1 product-3">
+              </div>
+  
+            </div>
+            <button type="button" class="prdct-btn hover-btn-3">View more <span><svg width="6" height="7" viewBox="0 0 6 7"
+              class="btn-svg" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.03011 6.39502C1.08517 6.41868 1.147 6.4295 1.20894 6.42633C1.27089 6.42316 1.33063 6.40612 1.38173 6.37702L5.80682 3.84642C5.85204 3.82055 5.88899 3.786 5.91451 3.74575C5.94003 3.7055 5.95337 3.66074 5.95337 3.6153C5.95337 3.56986 5.94003 3.5251 5.91451 3.48484C5.88899 3.44459 5.85204 3.41005 5.80682 3.38417L1.38173 0.85357C1.33072 0.824174 1.27092 0.806911 1.20885 0.803662C1.14677 0.800414 1.08481 0.811305 1.02972 0.835147C0.974623 0.85899 0.92851 0.89487 0.896407 0.938875C0.864303 0.98288 0.847441 1.03332 0.847658 1.0847V6.1459C0.847648 6.19722 0.864645 6.24757 0.896807 6.29149C0.928968 6.3354 0.975068 6.3712 1.03011 6.39502ZM1.52844 1.62147L5.01507 3.6153L1.52844 5.60913V1.62147Z"/>
+            </svg>
+          </span>
+        </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="equipments-section section-padding">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-7" data-aos="fade-right"
+        data-aos-duration="1500">
+          <img src="assets/img/new-age-logo.png" alt="" class="client-logo">
+          <h3 class="sub-heading white">Fire Protection Equipments</h3>
+          <p class="white main-para">NewAge Fire Protection Industries Pvt. Ltd. offers a comprehensive range of top
+            quality firefighting equipment's & products. NewAge is a widely acclaimed brand name in both National &
+            International markets due to the product quality, services and customer oriented approach. Our products &
+            systems are approved by accredited national & international agencies such as ISI, UL, FM, Vds, LPCB, GL etc.
+            The group austerely adheres to national as well as global standards like BIS, EN, NFPA etc.</p>
+        </div>
+        <div class="col-lg-5 h-100" data-aos="fade-left"
+        data-aos-duration="1500">
+          <img src="assets/img/equipment-3.png" alt="" class="img-fluid fire-horse-img">
+        </div>
+      </div>
+      <div class="row" data-aos="fade-up"
+      data-aos-duration="1500">
+        <div class="col-lg-4">
+          <div class="eqiupment-box d-flex align-items-center flex-column">
+            <img src="assets/img/equipment-1.png" alt="" class="img-fluid">
+            <h5>Selectable Gallonage Nozzle</h5>
+          </div>
+        </div>
+        <div class="col-lg-4 h-100">
+          <div class="eqiupment-box d-flex align-items-center flex-column">
+            <img src="assets/img/equipment-2.png" alt="" class="img-fluid">
+            <h5>Selectable Gallonage Nozzle</h5>
+          </div>
+        </div>
+        <div class="col-lg-4 h-100">
+          <div class="eqiupment-box d-flex align-items-center flex-column">
+            <img src="assets/img/equipment-3.png" alt="" class="img-fluid">
+            <div class="overlay-1">
+              <h5>Selectable Gallonage Nozzle</h5>
+            </div>
+
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="button" class="primary-btn hover-btn-1 mt-5">
+            Our Products <span><svg width="9" height="11" viewBox="0 0 9 11" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.997368 10.8549C1.08499 10.9005 1.18337 10.9213 1.28195 10.9152C1.38053 10.9091 1.47558 10.8763 1.55691 10.8202L8.59858 5.94524C8.67053 5.89539 8.72933 5.82885 8.76994 5.7513C8.81056 5.67376 8.83177 5.58753 8.83177 5.49999C8.83177 5.41246 8.81056 5.32623 8.76994 5.24868C8.72933 5.17114 8.67053 5.10459 8.59858 5.05474L1.55691 0.179744C1.47573 0.123116 1.38057 0.0898594 1.28179 0.0836014C1.18302 0.0773433 1.08442 0.0983238 0.996746 0.144255C0.909074 0.190187 0.835695 0.259306 0.784608 0.344078C0.733521 0.42885 0.706688 0.52602 0.707035 0.624994V10.375C0.707018 10.4739 0.734065 10.5709 0.785244 10.6555C0.836423 10.7401 0.909782 10.809 0.997368 10.8549ZM1.79037 1.65904L7.33866 5.49999L1.79037 9.34095V1.65904Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section class="section-padding">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6" data-aos="fade-right"
+        data-aos-duration="1500">
+          <h3 class="sub-heading"> <span>Safety</span> Products that Save Lives</h3>
+          <p class="main-para">Be it eyes, hands, or ears, all our body parts are prone to different risks and injuries.
+            In industries or workplaces where there is the use of chemicals, toxic gases, and substances, safety becomes
+            critical. Here are the common safety products that are required at the workplace:</p>
+          <p class="main-para">Be it eyes, hands, or ears, all our body parts are prone to different risks and injuries.
+            In industries or workplaces where there is the use of chemicals, toxic gases, and substances, safety becomes
+            critical. Here are the common safety products that are required at the workplace:</p>
+          <button type="button" class="primary-btn hover-btn-1">
+            Our Products <span><svg width="9" height="11" viewBox="0 0 9 11" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.997368 10.8549C1.08499 10.9005 1.18337 10.9213 1.28195 10.9152C1.38053 10.9091 1.47558 10.8763 1.55691 10.8202L8.59858 5.94524C8.67053 5.89539 8.72933 5.82885 8.76994 5.7513C8.81056 5.67376 8.83177 5.58753 8.83177 5.49999C8.83177 5.41246 8.81056 5.32623 8.76994 5.24868C8.72933 5.17114 8.67053 5.10459 8.59858 5.05474L1.55691 0.179744C1.47573 0.123116 1.38057 0.0898594 1.28179 0.0836014C1.18302 0.0773433 1.08442 0.0983238 0.996746 0.144255C0.909074 0.190187 0.835695 0.259306 0.784608 0.344078C0.733521 0.42885 0.706688 0.52602 0.707035 0.624994V10.375C0.707018 10.4739 0.734065 10.5709 0.785244 10.6555C0.836423 10.7401 0.909782 10.809 0.997368 10.8549ZM1.79037 1.65904L7.33866 5.49999L1.79037 9.34095V1.65904Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left"
+        data-aos-duration="1500">
+          <div class="safety-products">
+            <div class="row justify-content-end">
+              
+              <div class="col-lg-4">
+                <div class="safety-prdct-boxes d-flex align-items-center justify-content-center flex-column">
+                  <img src="assets/img/safety-icon-1.png" alt="" class="img-fluid">
+                  <h6>Safety goggles for
+                    eye protection</h6>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="safety-prdct-boxes d-flex align-items-center justify-content-center flex-column">
+                  <img src="assets/img/safety-icon-2.png" alt="" class="img-fluid">
+                  <h6>Safety footwear for 
+                    footwear protection</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-30 justify-content-end">
+              <div class="col-lg-4">
+                <div class="safety-prdct-boxes d-flex align-items-center justify-content-center flex-column">
+                  <img src="assets/img/safety-icon-3.png" alt="" class="img-fluid">
+                  <h6>Eyewash stations</h6>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="safety-prdct-boxes d-flex align-items-center justify-content-center flex-column">
+                  <img src="assets/img/safety-icon-4.png" alt="" class="img-fluid">
+                  <h6>Earmuffs and earphones
+                    for ear protection</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-30 justify-content-end">
+              <div class="col-lg-4">
+                <div class="safety-prdct-boxes d-flex align-items-center justify-content-center flex-column">
+                  <img src="assets/img/safety-icon-5.png" alt="" class="img-fluid">
+                  <h6>Safety jackets and vests</h6>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="safety-prdct-boxes d-flex align-items-center justify-content-center flex-column">
+                  <img src="assets/img/safety-icon-6.png" alt="" class="img-fluid">
+                  <h6>Arrester and harness 
+                    for fall protection</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <section class="mt-50">
+    <div class="multi-purpose d-flex align-items-center justify-content-center flex-column">
+      <h2 data-aos="fade-up"
+      data-aos-duration="1500">Multi Purpose Portable Extinguisher</h2>
+      <div class="d-flex" data-aos="fade-up"
+      data-aos-duration="1500">
+        <a href="about.html">
+          <button type="button" class="primary-btn hover-btn-1 black-btn">
+            View More <span><svg width="9" height="11" viewBox="0 0 9 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.997368 10.8549C1.08499 10.9005 1.18337 10.9213 1.28195 10.9152C1.38053 10.9091 1.47558 10.8763 1.55691 10.8202L8.59858 5.94524C8.67053 5.89539 8.72933 5.82885 8.76994 5.7513C8.81056 5.67376 8.83177 5.58753 8.83177 5.49999C8.83177 5.41246 8.81056 5.32623 8.76994 5.24868C8.72933 5.17114 8.67053 5.10459 8.59858 5.05474L1.55691 0.179744C1.47574 0.123116 1.38057 0.0898594 1.28179 0.0836014C1.18302 0.0773433 1.08442 0.0983238 0.996746 0.144255C0.909074 0.190187 0.835695 0.259306 0.784608 0.344078C0.733521 0.42885 0.706688 0.52602 0.707035 0.624994V10.375C0.707018 10.4739 0.734065 10.5709 0.785244 10.6555C0.836423 10.7401 0.909782 10.809 0.997368 10.8549ZM1.79037 1.65904L7.33866 5.49999L1.79037 9.34095V1.65904Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </button>
+        </a>
+        <button type="button" class="third-btn white-btn">
+          Our Products <span><svg width="9" height="11" viewBox="0 0 9 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.997368 10.8549C1.08499 10.9005 1.18337 10.9213 1.28195 10.9152C1.38053 10.9091 1.47558 10.8763 1.55691 10.8202L8.59858 5.94524C8.67053 5.89539 8.72933 5.82885 8.76994 5.7513C8.81056 5.67376 8.83177 5.58753 8.83177 5.49999C8.83177 5.41246 8.81056 5.32623 8.76994 5.24868C8.72933 5.17114 8.67053 5.10459 8.59858 5.05474L1.55691 0.179744C1.47574 0.123116 1.38057 0.0898594 1.28179 0.0836014C1.18302 0.0773433 1.08442 0.0983238 0.996746 0.144255C0.909074 0.190187 0.835695 0.259306 0.784608 0.344078C0.733521 0.42885 0.706688 0.52602 0.707035 0.624994V10.375C0.707018 10.4739 0.734065 10.5709 0.785244 10.6555C0.836423 10.7401 0.909782 10.809 0.997368 10.8549ZM1.79037 1.65904L7.33866 5.49999L1.79037 9.34095V1.65904Z"
+                fill="white" />
+            </svg>
+          </span>
+        </button>
+  
+      </div>
+    </div>
+  </section>
+  <section class="section-padding">
+    <div class="container"> 
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-4">
+              <div class="partner-logo-box">
+                <img src="assets/img/partners/kanex-logo.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="partner-logo-box">
+                <img src="assets/img/partners/newage-logo.png" alt="">
+              </div>
+            </div> 
+            <div class="col-lg-4">
+              <div class="partner-logo-box">
+                <img src="assets/img/partners/safe-pro-logo.png" alt="">
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <div class="footer" data-aos="fade-up"
+  data-aos-duration="1500">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-4">
+          <img src="assets/img/logo.png" alt="" class="logo-w-footer">
+        </div>
+        <div class="col-lg-8">
+          <div class="d-flex footer-inputs">
+            <h5 class="newsltr-title">Newsletter</h5>
+
+            <div class="ftr-input">
+              <input type="name" placeholder="Name">
+            </div>
+            <div class="ftr-input">
+              <input type="name" placeholder="Enter Email">
+            </div>
+            <button class="footer-btn" type="button">Subscribe</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-5">
+          <p class="main-para white para-width">Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem Ipsum
+            has been the industry's Lorem Ipsum is simply dum</p>
+        </div>
+        <div class="col-lg-2">
+          <h6 class="footer-head">Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h6 class="footer-head">Address</h6>
+          <ul class="footer-links">
+            <li>P.O Box 3077, Jeddah 21471 , Al Othman
+              Commercial Center 1st Floor , Room No : 15 A ,
+              Baladiya Street, Jeddah K.S.A</li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h6 class="footer-head">Contacts</h6>
+          <div class="d-flex align-items-center social-media">
+            <img src="assets/img/call.svg" alt="">
+            <a href="Tel:0537069252">
+              <h6>0537069252</h6>
+            </a>
+          </div>
+          <div class="d-flex align-items-center social-media">
+            <img src="assets/img/call.svg" alt="">
+            <a href="Tel:+966 12 6458381">
+              <h6>+966 12 6458381</h6>
+            </a>
+
+          </div>
+          <div class="d-flex align-items-center social-media">
+            <img src="assets/img/sms.png" alt="">
+            <a href="mailto:info@rakme-fire.com">
+              <h6>info@rakme-fire.com</h6>
+            </a>
+          </div>
+          <div class="d-flex align-items-center social-media">
+            <img src="assets/img/instagram.svg" alt="">
+            <a href="https://www.instagram.com/rakmefire/?igsh=aGEzdjN5cWg4c3pz&utm_source=qr">
+              <h6>rakmefire</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-line">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <ul class="footer-links terms">
+            <li>Terms and conditions</li>
+            <li>Privacy policy</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="footer-links">
+            <li>© Copyrights © 2024 all rights reserved by Rakme</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="brochure-download">
+  <i class="fas fa-file-pdf"></i>
+</div>
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js " integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js " integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS " crossorigin="anonymous "></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+
+  <script>
+    AOS.init({disable: 'mobile'});
+  </script>
+ 
+</body>
+
+</html>

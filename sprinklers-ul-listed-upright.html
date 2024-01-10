@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakme</title>
+  <link rel="icon" type="fav-icon" href="assets/img/fav-icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="loader-main">
+    <div class="spinner"></div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-bg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png" alt="" class="img-fluid logo-w">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-0 m-auto nav-links common-nav-links">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#" class="desktop-item dropdwn-show">Products</a>
+            <input class="mega-input" type="checkbox" id="showMega">
+            <label for="showMega" class="mobile-item">Products</label>
+            <div class="mega-box">
+              <div class="content mega-product-menu">
+                <div class="row w-100 mx-0">
+                  <div class="col px-0 br-right">
+                    <h6>Ul Listed Extiguishers</h6>
+                    <ul class="mega-links">
+                      <li><a href="ul-listed-extinguisher.html">Dry Chemical Powder</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Extiguishers</h6>
+                    <ul class="mega-links">
+                      <li><a href="extinguisher-dry-chemical.html">Dry Chemical Powder</a></li>
+                      <li><a href="extinguisher-co2.html">CO2</a></li>
+                      <li><a href="extinguisher-foam-aff.html">Foam AFFF 3%</a></li>
+                      <li><a href="extinguisher-automatic-dcp.html">Automatic DCP</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Fire Hoses</h6>
+                    <ul class="mega-links">
+                      <li><a href="fire-hoses-pyroprotect.html">UL Listed/Pyroprotect</a></li>
+                      <li><a href="fire-hoses-premier.html">Premier</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Fire Hoses Cabinet</h6>
+                    <ul class="mega-links">
+                      <li><a href="fire-hose-steel-cabinet.html">Steel Cabinet</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Sprinklers</h6>
+                    <ul class="mega-links">
+                      <li><a href="sprinklers-ul-listed-pendant.html">UL Listed Pendant</a></li>
+                      <li><a href="sprinklers-ul-listed-upright.html">UL Listed Upright</a></li>
+                      <li><a href="sprinklers-ul-listed-sidewall.html">UL Listed Sidewall</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Nozzles</h6>
+                    <ul class="mega-links">
+                      <li><a href="nozzle-superfire-junior.html">Superfire Junior UL Listed</a></li>
+                      <li><a href="nozzle-pvc-hose.html">PVC Hose Reel Nozzle</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0 br-right">
+                    <h6>Valves</h6>
+                    <ul class="mega-links">
+                      <li><a href="gate-valve.html">Gate Valve Flanged UL/FM</a></li>
+                      <li><a href="check-valve.html">Check Valve Flanged FM</a></li>
+                    </ul>
+                  </div>
+                  <div class="col px-0">
+                    <h6>Foam Concentrate</h6>
+                    <ul class="mega-links">
+                      <li><a href="foam-concentrate.html"> Aqueous Film Forming Foam (AFFF)</a></li>
+                    </ul>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="container-input ml-50">
+          <input type="text" placeholder="Search" name="text" class="input">
+          <svg fill="#000000" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z"
+              fill-rule="evenodd"></path>
+          </svg>
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+   <div class="inner-banner">
+    <div class="banner-overlay">
+      <div class="inner-banner-cntnt aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+        <h2> Sprinklers UL Listed Upright</h2>
+        <ul class="breadcrumps">
+          <li>
+            <a href="index.html">Home</a><span>/</span>
+          </li>
+          <li class="breadcrump-active-color">
+             Sprinklers UL Listed Upright
+          </li>
+        </ul>
+      </div>
+    </div>
+   </div>
+   <section class="section-padding">
+    <div class="container">
+      <div class="prdct-dtils">
+        <div class="main-sub-head aos-init aos-animate" data-aos="fade-right" data-aos-duration="1500">
+          <h3>Sprinklers UL Listed Upright</h3>
+        </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 order-2 order-md-1 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1500">
+          <div class="prdct-dtl-head">
+            <h4>Upright<span>Sprinkler</span></h4>
+          </div>
+          <h4 class="prdct-ftr">Standard Response & Quick Response</h4>
+          <p>The Sprinklers is Available in Pendant and Upright Spray, 5mm diameter glass bulb in Standard response and 3mm Diameter glass bulb in quick response. Teamperature rating of 68°C and 79°C,K 5.6(80) Orifice size, and Pressure rating of 175psi (12 Bar)</p>
+        </div>
+        <div class="col-lg-6 order-1 order-md-2 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500">
+          <img src="assets/img/products/sprinkles.png" alt="" class="sprinkles-img">
+        </div>
+      </div>
+      <h4 class="prdct-ftr mt-10 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">Technical Specifications</h4>
+      <div class="row">
+        <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+          <div class="table-ovrflow">
+            <table class="table product-tbl">
+              <thead>
+                <tr>
+                  <th scope="col">S|N</th>
+                  <th scope="col">N|070/N|801</th>
+                  <th scope="col">N|075/N|803</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Response Type</td>
+                  <td>Standard Response</td>
+                  <td>Standard Response</td>
+                </tr> 
+                <tr>
+                  <td>Type</td>
+                  <td>Pendant</td>
+                  <td>Upright</td>
+                </tr> 
+                <tr>
+                  <td>Nominal | K-Factor</td>
+                  <td>5.6(80)</td>
+                  <td>5.6(80)</td>
+                </tr>      
+                <tr>
+                  <td>Maximum Working Pressure</td>
+                  <td>175 psig (12 Bar)</td>
+                  <td>175 psig (12 Bar)</td>
+                </tr>
+                <tr>
+                  <td>Hydrostatic Test Pressure</td>
+                  <td>350 psig(25 Bar)</td>
+                  <td>175 psig(25 Bar)</td>
+                </tr>
+                <tr>
+                  <td>Operating temperature</td>
+                  <td>68°C/79° C</td>
+                  <td>68°C/79° C</td>
+                </tr>
+                <tr>
+                  <td>Glass Bulb Size</td>
+                  <td>5 mm</td>
+                  <td>5 mm</td>
+                </tr>
+                <tr>
+                  <td>Thread Size</td>
+                  <td>1/2° NPT/BSPT</td>
+                  <td>1/2° NPT/BSPT</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="prdct-ftr mt-10 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">Material Specifications</h4>
+      <div class="row">
+        <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+          <div class="table-ovrflow">
+            <table class="table product-tbl">
+              <thead>
+                <tr>
+                  <th scope="col">Component</th>
+                  <th scope="col">Material</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Deflector</td>
+                  <td>Brass UNS - 28000</td>
+                </tr> 
+                <tr>
+                  <td>Bulb</td>
+                  <td>Glass with Glycerin Solution</td>
+                </tr> 
+                <tr>
+                  <td>Load Screw</td>
+                  <td>Brass UNSc - 28000</td>
+                </tr>      
+                <tr>
+                  <td>Seal</td>
+                  <td>Brass UNSc - 28000</td>
+                </tr>
+                <tr>
+                  <td>Frame</td>
+                  <td>Brass UNSc - 28000</td>
+                </tr>
+                <tr>
+                  <td>Seal Washer</td>
+                  <td>Belleville Washer coated on both sides with Teflon Tape</td>
+                </tr>
+                <tr>
+                  <td>Bulb Nominal Diameter</td>
+                  <td>Standerd Response 5.0mm, Quick Response 3.0mm</td>
+                </tr>
+                <tr>
+                  <td>Thread Size</td>
+                  <td>1/2° NPT/BSPT</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+   </section>
+
+   <div class="footer" data-aos="fade-up"
+   data-aos-duration="1500">
+     <div class="container">
+       <div class="row d-flex align-items-center">
+         <div class="col-lg-4">
+           <img src="assets/img/logo.png" alt="" class="logo-w-footer">
+         </div>
+         <div class="col-lg-8">
+           <div class="d-flex footer-inputs">
+             <h5 class="newsltr-title">Newsletter</h5>
+ 
+             <div class="ftr-input">
+               <input type="name" placeholder="Name">
+             </div>
+             <div class="ftr-input">
+               <input type="name" placeholder="Enter Email">
+             </div>
+             <button class="footer-btn" type="button">Subscribe</button>
+           </div>
+ 
+         </div>
+       </div>
+       <div class="row mt-3">
+         <div class="col-lg-5">
+           <p class="main-para white para-width">Lorem Ipsum is simply dummy text of the
+             printing and typesetting industry. Lorem Ipsum
+             has been the industry's Lorem Ipsum is simply dum</p>
+         </div>
+         <div class="col-lg-2">
+           <h6 class="footer-head">Quick Links</h6>
+           <ul class="footer-links">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About Us</a></li>
+             <li><a href="contact.html">Contact Us</a></li>
+           </ul>
+         </div>
+         <div class="col-lg-3">
+           <h6 class="footer-head">Address</h6>
+           <ul class="footer-links">
+             <li>P.O Box 3077, Jeddah 21471 , Al Othman
+               Commercial Center 1st Floor , Room No : 15 A ,
+               Baladiya Street, Jeddah K.S.A</li>
+           </ul>
+         </div>
+         <div class="col-lg-2">
+           <h6 class="footer-head">Contacts</h6>
+           <div class="d-flex align-items-center social-media">
+             <img src="assets/img/call.svg" alt="">
+             <a href="Tel:0537069252">
+               <h6>0537069252</h6>
+             </a>
+           </div>
+           <div class="d-flex align-items-center social-media">
+             <img src="assets/img/call.svg" alt="">
+             <a href="Tel:+966 12 6458381">
+               <h6>+966 12 6458381</h6>
+             </a>
+ 
+           </div>
+           <div class="d-flex align-items-center social-media">
+             <img src="assets/img/sms.png" alt="">
+             <a href="mailto:info@rakme-fire.com">
+               <h6>info@rakme-fire.com</h6>
+             </a>
+           </div>
+           <div class="d-flex align-items-center social-media">
+             <img src="assets/img/instagram.svg" alt="">
+             <a href="https://www.instagram.com/rakmefire/?igsh=aGEzdjN5cWg4c3pz&utm_source=qr">
+               <h6>rakmefire</h6>
+             </a>
+           </div>
+         </div>
+       </div>
+       <hr class="footer-line">
+       <div class="d-flex justify-content-between align-items-center">
+         <div>
+           <ul class="footer-links terms">
+             <li>Terms and conditions</li>
+             <li>Privacy policy</li>
+           </ul>
+         </div>
+         <div>
+           <ul class="footer-links">
+             <li>© Copyrights © 2024 all rights reserved by Rakme</li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js " integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous "></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js " integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS " crossorigin="anonymous "></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+
+
+  <script>
+    AOS.init({disable: 'mobile'});
+  </script>
+</body>
+
+</html>
